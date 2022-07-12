@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Singleton\" />
+    <None Remove="FactoryPattern\" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="DependencyInjection\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="RepositoryPattern\" />
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Models\" />
+    <None Remove="UnitOfWorkPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Singleton\" />
+    <Folder Include="FactoryPattern\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="RepositoryPattern\" />
+    <Folder Include="Models\" />
+    <Folder Include="UnitOfWorkPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.5" />
+  </ItemGroup>
+</Project>
