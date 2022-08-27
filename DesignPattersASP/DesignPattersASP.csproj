@@ -26,10 +26,18 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <None Remove="Devart.Data.PostgreSql.EFCore" />
+    <None Remove="Models\ViewModels\" />
+    <None Remove="Views\Beer\" />
+    <None Remove="Strategies\" />
+    <None Remove="Views\GeneratorFile\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="Views\ProductDetail\" />
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="Views\Beer\" />
+    <Folder Include="Strategies\" />
+    <Folder Include="Views\GeneratorFile\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />

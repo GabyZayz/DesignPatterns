@@ -1,6 +1,6 @@
 ﻿using System;
-using DesignPatterns.DependencyInjection;
 using DesignPatterns.RepositoryPattern;
+using DesignPatterns.Models;
 
 namespace DesignPatterns.UnitOfWorkPattern
 {
@@ -9,6 +9,8 @@ namespace DesignPatterns.UnitOfWorkPattern
         public IRepository<Beer> Beers { get; }
 
         public IRepository<Brand> Brands { get; }
+
+
 
         public void Save();
     }

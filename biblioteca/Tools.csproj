@@ -11,6 +11,7 @@
     <None Remove="Earn\" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Generator\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
@@ -22,5 +23,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Earn\" />
+    <Folder Include="Generator\" />
   </ItemGroup>
 </Project>
